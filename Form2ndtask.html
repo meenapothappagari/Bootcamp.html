@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg{
+            background-color: rgb(13, 238, 238);
+            
+            height: 100vh;
+            width: 750px;
+            text-align: center;
+            margin: 300px;
+            margin-left: auto;
+            padding:10px;
+        }
+        .card{
+            background-color: white;
+            height: 530px;
+            width: 530px;
+            margin-left:100px;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <h1>Survey Form</h1>
+        <div class="card"><br>
+            <label>Let us know how we can improve freeCodeCamp</label><br><br>
+            <label>*Name : <input></label><br><br>
+            <label>*Email : <input></label><br><br>
+            <label>*Age : <input type="number"></label><br><br>
+            <label>Which option best describes your current role?</label>
+            <select>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label>*How likely is that you would recommend <br> freeCodeCamp to a friend?</label><br>
+            <input type="radio" name="type">Definitely<br>
+            <input type="radio" name="type">Maybe<br>
+            <input type="radio" name="type">Not sure<br><br>
+            <label>What do you like most in FCC:</label>
+            <select>
+                <option value="Select an option">Select an option</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Python">Python</option>
+
+            </select><br><br>
+            <label>Things that should be improved in the future<br>(Check all that apply):</label><br><br>
+            <label><input type="checkbox">Front-end Projects<br></label>
+            <label><input type="checkbox">Back-end Project<br></label>
+            <label><input type="checkbox">Data Visualization</label><br><br>
+            <button>Submit</button>
+        </div>
+    </div>
+    
+</body>
+</html>

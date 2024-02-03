@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="s.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>nothing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        .head {
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    margin: auto;
+    height: 70px;
+}
+
+.nav {
+    background-color: #999;
+    height: 45px;
+    justify-content: space-evenly;
+}
+
+.n {
+    height: 30px;
+    border: 2px solid black;
+    width: 255px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    background-color: #4e4d4d;
+}
+
+.col-2 {
+    height: 70vh;
+    background-color: rgb(240, 184, 184);
+    margin: 10px;
+    text-align: center;
+}
+
+.col-3 {
+    height: 70vh;
+    background-color: rgb(88, 243, 101);
+    margin: 10px;
+    text-align: center;
+}
+
+.col-6 {
+    height: 70vh;
+    background-color: rgb(231, 238, 235);
+    margin: 10px;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 20px;
+    text-align: center;
+}
+
+.btn {
+    color: rgb(235, 129, 129);
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(30, 33, 34);
+}
+
+.img2 {
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.img3 {
+    width: 700px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.f {
+    background-color: darkgoldenrod;
+    height: 8vh;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 8px solid black;
+}
+    </style>
+</head>
+
+<body>
+
+    <header class="head">
+        <h1> Power Grid HomePage</h1>
+    </header>
+
+    <nav class="nav">
+        <a href="" class="n">Home</a>
+        <a href="" class="n">About</a>
+        <a href="" class="n">Career</a>
+        <a href="" class="n">Blog</a>
+        <a href="" class="n">Contact Us</a>
+    </nav>
+
+    <section class="box">
+        <div class="col-2">
+            <img class="img" src="https://image.shutterstock.com/image-vector/enchanting-unicorn-fairytale-colorful-illustration-260nw-2310718263.jpg">
+            <p class="p">this is some awesome content that is on the page</p>
+            <button class="btn">Go SomeWhere</button>
+
+        </div>
+        <div class="col-3">
+            <img class="img2" src="https://t4.ftcdn.net/jpg/02/52/35/91/240_F_252359111_Q1MRbvJesPGyzw17ltC4RZNM6xdyEzLU.jpg">
+            <p class="p">this is more content than the previous box,but less than the next</p>
+            <button type="submit" class="btn">click Me</button>
+
+        </div>
+
+        <div class="col-6">
+
+            <img class="img3" src="https://img.freepik.com/free-photo/cute-woolly-lambs-graze-freely-green-pastures-generated-by-ai_188544-27516.jpg?size=626&ext=jpg&ga=GA1.1.969308901.1705918750&semt=sph">
+            <p class="p">we have lots of content here to show that content can grow,and everything can be same size if you use flexbox. even if this has tons of text, it will line up with the other sections.</p>
+            <button type="submit" class="btn"> Do Something</button>
+
+        </div>
+
+
+    </section>
+
+    <footer class="f">
+        <h3>Copyright@2016</h3>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

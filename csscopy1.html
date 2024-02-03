@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Layout.css">
+    <style>
+        body {
+            font-size: 40px;
+            color: rgb(29, 27, 27);
+            background-color: rgb(17, 238, 220);
+        }
+        .header {
+            width: 100%;
+            padding: 2rem;
+            background-color:rgb(248, 188, 115);
+            color: #0e0d0d;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-article {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        .aside {
+            background-color:rgb(42, 233, 99);
+            width: 26%;
+            height: 550px;
+        }
+        .main-article {
+            background-color:rgb(236, 96, 53);
+            width: 71%;
+            height: 550px;
+        }
+        .aside-div {
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+        }
+        .article-div {
+            display: flex;
+            justify-content: center;
+            margin-top: 160px;
+          
+        } 
+        .img{
+            height: 10rem;
+            width: 10rem;
+            background-color:rgb(127, 104, 209);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .footer {
+            width: 100%;
+            background-color:rgb(252, 183, 98);
+            padding: 2rem;
+            text-align: center;
+            color: #141313;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-div">Header</div>
+    </header>
+    <br>
+    <main class="main">
+        <div class="aside">
+            <div class="aside-div"> Aside</div>
+        </div>
+        <div class="main-article">
+            <div class="Article"> 
+               <div class="article-div">Article</div>
+            </div>
+            <div class="content">
+                <div class="img">image1</div>
+                <div class="img">image2</div>
+                <div class="img">image3</div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer class="footer">
+        <div>footer</div>
+
+    </footer>
+</body>
+</html>
